@@ -7,8 +7,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PlatformService", "Platform
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "K8S", "K8S", "{E00EC88C-ADCC-4326-94B7-3D12EB25BDA9}"
 	ProjectSection(SolutionItems) = preProject
-		platforms-deploy.yaml = platforms-deploy.yaml
+		K8S\commands-deploy.yaml = K8S\commands-deploy.yaml
+		K8S\ingress-srv.yaml = K8S\ingress-srv.yaml
+		K8S\local-pvc.yaml = K8S\local-pvc.yaml
+		K8S\mssql-platform-deploy.yaml = K8S\mssql-platform-deploy.yaml
+		K8S\platforms-deploy.yaml = K8S\platforms-deploy.yaml
 		K8S\platforms-np-srv.yaml = K8S\platforms-np-srv.yaml
+		K8S\rabbitmq-deploy.yaml = K8S\rabbitmq-deploy.yaml
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommandService", "CommandService\CommandService.csproj", "{F9EE5765-F14F-481B-9A9C-DD57D39D4549}"

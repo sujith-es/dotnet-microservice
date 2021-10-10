@@ -69,6 +69,74 @@
 							"name": "CommandServices",
 							"item": [
 								{
+									"name": "Get All Platforms",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "https://acme.com/api/c/platforms",
+											"protocol": "https",
+											"host": [
+												"acme",
+												"com"
+											],
+											"path": [
+												"api",
+												"c",
+												"platforms"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "GetCommandsForPlatform",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "https://acme.com/api/c/platforms/1/commands",
+											"protocol": "https",
+											"host": [
+												"acme",
+												"com"
+											],
+											"path": [
+												"api",
+												"c",
+												"platforms",
+												"1",
+												"commands"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "GetCommandForPlatform by CommandId",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "https://acme.com/api/c/platforms/5/commands/1",
+											"protocol": "https",
+											"host": [
+												"acme",
+												"com"
+											],
+											"path": [
+												"api",
+												"c",
+												"platforms",
+												"5",
+												"commands",
+												"1"
+											]
+										}
+									},
+									"response": []
+								},
+								{
 									"name": "CreateCommandForPlatform",
 									"request": {
 										"method": "POST",
@@ -95,53 +163,6 @@
 												"platforms",
 												"5",
 												"commands"
-											]
-										}
-									},
-									"response": []
-								},
-								{
-									"name": "GetCommandsForPlatform",
-									"request": {
-										"method": "GET",
-										"header": [],
-										"url": {
-											"raw": "https://acme.com/api/c/platforms/5/commands",
-											"protocol": "https",
-											"host": [
-												"acme",
-												"com"
-											],
-											"path": [
-												"api",
-												"c",
-												"platforms",
-												"5",
-												"commands"
-											]
-										}
-									},
-									"response": []
-								},
-								{
-									"name": "GetCommandForPlatform by CommandId",
-									"request": {
-										"method": "GET",
-										"header": [],
-										"url": {
-											"raw": "https://acme.com/api/c/platforms/5/commands/1",
-											"protocol": "https",
-											"host": [
-												"acme",
-												"com"
-											],
-											"path": [
-												"api",
-												"c",
-												"platforms",
-												"5",
-												"commands",
-												"1"
 											]
 										}
 									},
