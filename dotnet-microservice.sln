@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31727.386
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PlatformService", "PlatformService\PlatformService.csproj", "{1D565C10-6C4C-4163-9F48-49CA85B7D774}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "K8S", "K8S", "{E00EC88C-ADCC-4326-94B7-3D12EB25BDA9}"
+	ProjectSection(SolutionItems) = preProject
+		platforms-deploy.yaml = platforms-deploy.yaml
+		K8S\platforms-np-srv.yaml = K8S\platforms-np-srv.yaml
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommandService", "CommandService\CommandService.csproj", "{F9EE5765-F14F-481B-9A9C-DD57D39D4549}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1D565C10-6C4C-4163-9F48-49CA85B7D774}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D565C10-6C4C-4163-9F48-49CA85B7D774}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D565C10-6C4C-4163-9F48-49CA85B7D774}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D565C10-6C4C-4163-9F48-49CA85B7D774}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9EE5765-F14F-481B-9A9C-DD57D39D4549}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9EE5765-F14F-481B-9A9C-DD57D39D4549}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9EE5765-F14F-481B-9A9C-DD57D39D4549}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9EE5765-F14F-481B-9A9C-DD57D39D4549}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0A978138-5C6B-4007-A63C-5DC4F5D1866A}
+	EndGlobalSection
+EndGlobal
